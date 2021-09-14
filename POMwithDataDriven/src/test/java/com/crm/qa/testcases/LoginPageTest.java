@@ -33,6 +33,7 @@ public class LoginPageTest extends TestBase {
 		Assert.assertTrue(flag);
 	}
 	
+	// login with less priority
 	@Test(priority=3)
 	public void loginTest() throws InterruptedException {
 		
